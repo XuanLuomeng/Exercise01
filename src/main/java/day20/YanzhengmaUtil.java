@@ -1,6 +1,8 @@
 package day20;
 
 import com.google.code.kaptcha.impl.DefaultKaptcha;
+import org.apache.commons.io.FileUtils;
+import org.springframework.util.FastByteArrayOutputStream;
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
